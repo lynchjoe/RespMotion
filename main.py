@@ -6,7 +6,7 @@ import tkinter as tk
 
 
 
-#change!
+
 
 class App(tk.Tk):
     def __init__(self):
