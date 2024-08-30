@@ -1,3 +1,5 @@
 /.DS_Store
 /.venv/
 /ML_Model/.DS_Store
+/ML_Model/lesion_finder_v1.pth
+/ML_Model/liver_finder_v2.pth

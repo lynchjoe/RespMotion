@@ -6,7 +6,7 @@ from PIL import Image
 import os
 import random
 
-class TrainDataset(Dataset):
+class TrainTestDataset(Dataset):
     def __init__(self, sample_dir, mask_dir, transform=None):
 
         self.sample_dir = sample_dir
@@ -41,7 +41,7 @@ class TrainDataset(Dataset):
         return sample, mask
         
 
-class TestDataset(Dataset):
+class RunDataset(Dataset):
     def __init__(self, sample_dir, transform=None):
         self.sample_dir = sample_dir
         self.transform = transform
