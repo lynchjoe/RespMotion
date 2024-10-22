@@ -64,7 +64,7 @@ class UNet(nn.Module):
             nn.Conv2d(in_channels=128, out_channels=64, kernel_size=3, stride=1, padding=1), nn.BatchNorm2d(64), nn.ReLU(),   # output: 512x512x64
             nn.Conv2d(in_channels=64, out_channels=64, kernel_size=3, stride=1, padding=1), nn.BatchNorm2d(64), nn.ReLU()     # output: 512x512x64
         )
-
+        
         # Finally, a convolution is perfomed with a kernel of 1 to provide an output of identical size to the input
         self.final = nn.Conv2d(in_channels=64, out_channels=1, kernel_size=1, stride=1, padding=0)        # output: 512x512x1
 
