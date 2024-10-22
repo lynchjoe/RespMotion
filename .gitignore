@@ -3,3 +3,13 @@
 /ML_Model/.DS_Store
 /ML_Model/lesion_finder_v1.pth
 /ML_Model/liver_finder_v2.pth
+/Data
+/Lesion_Data
+/Lesion_Masks
+/transforms images
+Demo.gif
+edge_coords.pkl
+ideal_edge_coords.pkl
+mask_master_matrix.npz
+master_matrix.npz
+steering_coords.pkl
